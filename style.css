@@ -6,7 +6,22 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    width: 84%;
+    max-width: 1600px;
 }
 header{
     background-color: #FFF8F3;
+}
+nav{
+    width: 84%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    font-size: 45px;
+}
+.logo .special{
+    color: #FD6E0A;
 }
